@@ -285,7 +285,7 @@ export default function Comment() {
                     <div className="flex items-center justify-between w-full">
                       <div className="title flex items-center gap-4">
                         <img
-                          src={comment.user.image.webp}
+                          src={comment.user.image.png}
                           className="w-8 h-8"
                         />
                         <p className="font-semibold">{comment.user.username}</p>
@@ -413,7 +413,7 @@ export default function Comment() {
                               <div className="flex justify-between ">
                                 <div className="title flex items-center gap-4">
                                   <img
-                                    src={reply.user.image.webp}
+                                    src={reply.user.image.png}
                                     className="w-8 h-8"
                                   />
                                   <p className="font-semibold">
@@ -512,7 +512,7 @@ export default function Comment() {
                     {replyTo === comment.id && (
                       <div className="flex gap-2 bg-white rounded-md p-4 w-full">
                         <img
-                          src={Data.currentUser.image.webp}
+                          src={Data.currentUser.image.png}
                           className="w-8 h-8"
                         />
                         <textarea
@@ -536,7 +536,7 @@ export default function Comment() {
           })}
 
         <div className="flex gap-2 bg-white rounded-md p-6 w-full">
-          <img src={Data.currentUser.image.webp} className="w-8 h-8" />
+          <img src={Data.currentUser.image.png} className="w-8 h-8" />
           <textarea
             placeholder="Add comment..."
             name="content"
