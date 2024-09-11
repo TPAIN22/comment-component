@@ -305,7 +305,7 @@ export default function Comment() {
                             onClick={() => openDialog(comment.id)}
                           >
                             <img
-                              src="./src/assets/icon-delete.svg"
+                              src="./public/icon-delete.svg"
                               className="w-3 h-3"
                             />
                             <p>Delete</p>
@@ -315,7 +315,7 @@ export default function Comment() {
                             onClick={() => handleEditComment(comment.id)}
                           >
                             <img
-                              src="./src/assets/icon-edit.svg"
+                              src="./public/icon-edit.svg"
                               className="w-3 h-3"
                             />
                             <p>Edit</p>
@@ -439,7 +439,7 @@ export default function Comment() {
                                       }
                                     >
                                       <img
-                                        src="./src/assets/icon-delete.svg"
+                                        src="./public/icon-delete.svg"
                                         className="w-3 h-3"
                                       />
                                       <p>Delete</p>
@@ -452,7 +452,7 @@ export default function Comment() {
                                       }
                                     >
                                       <img
-                                        src="./src/assets/icon-edit.svg"
+                                        src="./public/icon-edit.svg"
                                         className="w-3 h-3"
                                       />
                                       <p>Edit</p>
